@@ -1,6 +1,6 @@
-import Retional.Rational;
 
-public class RationalMatrix extends GenericMatrix<Rational> {
+
+public class RationalMatrix<Rational extends Number> extends GenericMatrix<Rational> {
     @Override
     protected Rational add(Rational r1, Rational r2) {
         return r1.add(r2);

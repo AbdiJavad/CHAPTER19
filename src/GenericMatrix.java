@@ -46,7 +46,7 @@ public abstract class GenericMatrix<E extends Number> {
         return result;
     }
 
-    public static void printResult(
+    public static <Rational> void printResult(
             Rational[][] m1, Rational[][] m2, Rational[][] m3, char op) {
         for (int i = 0; i < m1.length; i++) {
             for (int j = 0; j < m1[0].length; j++)
